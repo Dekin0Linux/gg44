@@ -23,7 +23,7 @@ function page() {
    <main>
     <Hero/>
     <Partners/>
-    <Values/>
+    {/* <Values/> */}
     <Projects/>
     <Try/>
     <Contact/>

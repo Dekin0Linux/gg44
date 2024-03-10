@@ -27,9 +27,7 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         {/* <Navbar/> */}
         {children}
-        <a href="#" className="z-50">
-          <div className="w-16 h-16 bg-green-600 fixed right-10 bottom-10 rounded-full flex justify-center items-center text-white shadow-lg "><FaWhatsapp size={30} /></div>
-        </a>
+        {/*  */}
         <Footer />
       </body>
     </html>

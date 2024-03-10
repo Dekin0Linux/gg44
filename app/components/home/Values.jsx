@@ -2,7 +2,7 @@ import React from 'react'
 
 function Values() {
   return (
-    <div className="md:flex my-10 overflow-hidden">
+    <div className="md:flex my-10 overflow-hidden bg-slate-100">
       <div className="flex-1 ">
         <div className="md:px-32 p-5" data-aos="fade-right"  data-aos-duration="3000">
           <p className="md:text-4xl text-3xl font-semibold pb-5 text-sky-600">UNDERSTANDING PRIVATE EQUITY INVESTMENTS.</p>
