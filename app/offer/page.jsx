@@ -29,19 +29,6 @@ function page() {
                 <br />
                 Our Venture capital program, is typically provided to early-stage start-up companies that have high growth potential in industries such as information technology ,Agribusiness, Health and Medicine and manufacturing related sectors. Our Venture capital and Private Equity investments funds, marries money to knowledge and opportunity and clearly defines what both parties will receive at the outcome of the project.
               </p>
-
-
-              {/* <p className="md:text-md text-xl font-semibold pt-5 text-sky-600">Who we work with</p>
-              <small>Our large clientele consists of medium, large and multi-national corporations including:</small>
-              <ul className="list-disc px-5 text-blue-700">
-                <li>Infrastructure Projects backed by governments or municipality</li>
-                <li>Insurance Companies</li>
-                <li>Real estate Development Companies</li>
-                <li>Central Banks of developing countries</li>
-                <li>Private Bankers</li>
-              </ul>
-              <b>How to proceed</b>
-              <p>Please <a href="#">contact our offices</a>  to receive information about required paperwork and details.</p> */}
             </div>
           </div>
         </section>
@@ -78,47 +65,6 @@ function page() {
             </div>
           </div>
         </section>
-
-
-
-
-
-        <section className="my-20 p-3" data-aos="fade-up" data-aos-duration="3000">
-          {/* grid md:grid-cols-2 gap-4 */}
-          <div className="grid md:grid-cols-2 gap-4">
-            <div className="w-full h-full">
-              <img src="/images/projectF.jpg" alt="img2" className="h-full object-cover" />
-            </div>
-            <div className>
-              <p className="md:text-xl text-lg font-light bg-blue-500 p-4 text-white">Joint venture</p>
-              <p className="text-gray-500 md:leading-loose">
-                GG44 Holdings, understands the role that both the entrepreneur and the lender play in a joint
-                venture. Simply stated, a joint venture is a loan option that merges the passion and vision of an
-                entrepreneur with the financial backing of the lender. Together, these two entities form a single
-                purpose entity called a joint venture. <br />
-                Joint ventures, marry money to knowledge and opportunity and clearly define what both parties will
-                receive at the outcome of the project. In a typical joint venture, the lender will receive a percentage
-                of ownership in the project on top of collecting the interest rate on the loan. <br />
-                The joint venture’s entrepreneur will also receive a percentage of ownership in the project and often
-                receives compensation for his or her time for the role they play (general contractor, etc.).
-                Traditionally, the investor is paid back in full, plus interest, before the entrepreneur receives any
-                monetary compensation.
-              </p>
-              <p className="md:text-md text-xl font-semibold pt-5 text-sky-600">Venture capital</p>
-              <p className="text-gray-500 md:leading-loose">
-                Our Venture capital program, is typically provided to early-stage start-up companies that have high
-                growth potential in industries such as information technology ,Agribusiness, Health and Medicine
-                and manufacturing. Venture capital investments are generally made as cash investments in
-                exchange for shares in the company <br />
-              </p>
-
-            </div>
-
-
-          </div>
-        </section>
-
-
       </div>
     </div>
   )
