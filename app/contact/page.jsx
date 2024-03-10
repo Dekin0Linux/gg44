@@ -1,5 +1,8 @@
 import React from 'react'
 import Navbar from '../components/home/Navbar'
+import { MdOutlineEmail } from "react-icons/md";
+import { IoCall } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
 
 function page() {
   return (
@@ -17,16 +20,22 @@ function page() {
                     <p className="text-slate-500">Need to get intouch with us? Either fill out the form with your enquiry or find the email you'll like to contact below.</p>
 
                     <div className="shadow-blue-300/50  shadow-xl p-5 md:w-1/2 my-5 flex items-center gap-5">
-                        <div className="w-10 h-10 bg-blue-500"></div>
+                        <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
+                            <MdOutlineEmail size={30} />
+                        </div>
                         <p>testemail@gmail.com</p>
                     </div>
 
                     <div className="shadow-blue-300/50  shadow-xl p-5 md:w-1/2 my-5 flex items-center gap-5">
-                        <div className="w-10 h-10 bg-blue-500"></div>
+                        <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
+                            <IoCall size={30} />
+                        </div>
                         <p>000 000 000 000</p>
                     </div>
                     <div className="shadow-blue-300/50  shadow-xl p-5 md:w-1/2 my-5 flex items-center gap-5">
-                        <div className="w-10 h-10 bg-blue-500"></div>
+                        <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
+                            <FaLocationDot size={30} />
+                        </div>
                         <p>testemail@gmail.com</p>
                     </div>
                 </div>
