@@ -1,11 +1,11 @@
-import { Inter,Poppins,Roboto } from "next/font/google";
+import { Inter,Raleway,Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/home/Navbar";
 import Footer from "./components/Footer";
 import { FaWhatsapp } from "react-icons/fa";
 
 const inter = Inter({ subsets: ["latin"] });
-const poppins = Poppins({
+const raleway = Raleway({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
@@ -24,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={raleway.className}>
         {/* <Navbar/> */}
         {children}
         <a href="https://wa.me/+233247685717" target="_blank" className="z-50">
