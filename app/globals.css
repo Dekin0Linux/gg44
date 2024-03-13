@@ -5,7 +5,7 @@
 
 .hero-bg{
     width: 100%;
-    background-image:  linear-gradient(180deg, rgb(22, 22, 23), rgba(32, 44, 100, 0.7)),  url('/images/gg44bg.png');
+    background-image:  linear-gradient(180deg, rgb(22, 22, 23), rgba(32, 44, 100, 0.7)),  url('/images/19.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,7 +22,7 @@
 }
 .about-bg{
     width: 100%;
-    background-image:  linear-gradient(180deg, rgb(22, 22, 23), rgba(32, 44, 100, 0.1)),  url('/images/aboutHero.jpg');
+    background-image:  linear-gradient(180deg, rgb(22, 22, 23), rgba(32, 44, 100, 0.1)),  url('/images/12.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,9 +31,16 @@
 
 .service-bg{
     width: 100%;
-    background-image:  linear-gradient(180deg, rgb(22, 22, 23), rgba(32, 44, 100, 0.1)),  url('/images/investM.jpg');
+    background-image:  linear-gradient(180deg, rgb(22, 22, 23), rgba(32, 44, 100, 0.1)),  url('/images/7.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+
+.white-bg{
+    width: 100%;
+    background-image: url('/images/25.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

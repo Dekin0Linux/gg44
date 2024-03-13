@@ -17,10 +17,10 @@ function page() {
         {/* SERVICE ONE  */}
 
         <section className="my-10 px-3" data-aos="fade-up" data-aos-duration="3000">
-          <p className="md:text-6xl text-lg font-light p-4 text-gray-500 text-center">Private Equity and Venture Capital</p>
+          <p className="md:text-6xl text-3xl md:font-light font-bold p-4 text-gray-500 text-center">Private Equity and Venture Capital</p>
           <div className="grid md:grid-cols-2 gap-4 py-10">
             <div className="w-full h-full">
-              <img src="/images/Private-equity.jpeg" alt="img1" className="h-full object-cover" />
+              <img src="/images/13.jpg" alt="img1" className="h-full object-cover" />
             </div>
             <div className>
               <p className="text-gray-500 md:leading-loose text-xl">
@@ -36,10 +36,10 @@ function page() {
 
 
 
-        <section className="my-20 px-3" data-aos="fade-up" data-aos-duration="3000">
+        <section className="md:my-20 my-10 px-3" data-aos="fade-up" data-aos-duration="3000">
           {/* grid md:grid-cols-2 gap-4 */}
-          <p className="md:text-6xl text-lg font-light p-4 text-gray-500 text-center">Financial Credit Facilities</p>
-          <div className="grid md:grid-cols-2 gap-4 py-10">
+          <p className="md:text-6xl text-3xl md:font-light font-bold p-4 text-gray-500 text-center">Financial Credit Facilities</p>
+          <div className="grid md:grid-cols-2 gap-4 md:py-10">
             <div className>
               <p className="text-gray-500 leading-loose text-xl">
                 We offer a full range of investment and management services for international Trade and commerce and beyond. We are able to assist our clients with various Financial credit facilities, include revolving loan facilities, retail credit facilities (like credit cards), committed facilities, letters of credit to facilitate large scale projects and cross-border transactions.
@@ -60,7 +60,7 @@ function page() {
             </div>
 
             <div className="w-full h-full">
-              <img src="/images/Finance.jpg" alt="img2" className="h-full object-cover" />
+              <img src="/images/2.jpg" alt="img2" className="h-full object-cover" />
             </div>
           </div>
         </section>

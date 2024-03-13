@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 function Partners() {
   return (
-    <div className="md:py-20 py-10">
+    <div className="md:py-20 py-10 white-bg">
       <div className="container mx-auto">
         <div className='md:flex'>
           <div className="flex-1" data-aos="fade-right">
-            <img src="/images/aboutus.jpg" alt="image" className="object-cover w-full h-full" />
+            <img src="/images/3.jpg" alt="image" className="object-cover w-full h-full" />
           </div>
           <div className="flex-1 md:px-10 p-3" data-aos="fade-left">
             <h3 className="text-6xl font-semibold my-5">About Us</h3>

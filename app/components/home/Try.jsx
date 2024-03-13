@@ -8,7 +8,7 @@ function Try() {
                 <h3 className="md:text-6xl text-3xl font-bold">WE’RE DEDICATED TO
 YOUR SUCCESS
 </h3>
-                <p className="my-2 md:w-[800px] md:text-xl">GG44 Holdings endeavors to provide the highest standard of personalized relationship management. </p>
+                <p className="my-2 md:text-xl">GG44 Holdings endeavors to provide the highest standard of personalized relationship management. </p>
             </div>
 
         </div>

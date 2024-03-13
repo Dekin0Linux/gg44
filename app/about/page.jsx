@@ -14,8 +14,8 @@ function page() {
 
       <div className="container mx-auto">
         <div className='md:flex my-10 gap-5'>
-          <div className="flex-1" data-aos="fade-right">
-            <img src="/images/aboutus.jpg" alt="image" className="object-cover w-full h-full" />
+          <div className="flex-1 p-5 md:p-0" data-aos="fade-right">
+            <img src="/images/3.jpg" alt="image" className="object-cover w-full h-full" />
           </div>
           <div className="flex-1  p-5 md:p-0" data-aos="fade-left" data-aos-duration="3000">
             <h3 className="text-3xl font-semibold my-5">Know More About us</h3>
@@ -35,13 +35,13 @@ function page() {
         <div className="my-10" data-aos="fade-up" data-aos-duration="3000">
           <div>
             <div className="grid md:grid-cols-2">
-              <div className="bg-slate-100 p-5">
+              <div className="bg-slate-100 md:p-20 p-10">
                 <h3 className="text-3xl font-semibold my-5">Our Mission</h3>
-                <p className="text-gray-400 ">
+                <p className="text-gray-400 text-xl ">
                   To deliver investment solutions, unlock value and propel growth. Our capital programs, fuels the development of businesses and communities across Africa. Our strategy, is to help companies and governments stabilize, grow and thrive during challenging times. We invest in emerging markets and industries that will be the wellsprings of future opportunity.
                 </p>
               </div>
-              <div className="bg-slate-50 p-5">
+              <div className="bg-slate-50 md:p-20 p-10 text-xl">
                 <h3 className="text-3xl font-semibold my-5">Our Vision</h3>
                 <p className="text-gray-400 ">
                   To commit ourselves to the success of our company, by pursuing business excellence, the growth of our employees, and to seeking unique investments opportunities with good returns for our investors.

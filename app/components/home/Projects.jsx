@@ -15,16 +15,16 @@ function Item({ img, text, id }) {
 
 function Projects() {
     return (
-        <div className="my-20 bg-slate-950 text-white py-20">
+        <div className="my-20 bg-slate-950 text-white py-20 md:h-[90vh]">
             <div className="container mx-auto" data-aos="fade-up"  data-aos-duration="3000">
                 <p className="text-3xl md:text-6xl font-semibold pb-5 text-white text-center p-4">OUR INVESTMENT SECTORS</p>
 
                 <div className="grid md:grid-cols-5 grid-cols-1 gap-5 my-5 p-4 md:p-0">
                     <Item img='/images/techImg.jpg' text='Blockchain and Technology Innovations' />
                     <Item img='/images/industry.jpeg' text='Private Equity Investment Funds' />
-                    <Item img='/images/transport.jpg' text='Civil Infrastructure development' />
-                    <Item img='/images/sport.jpg' text='Media and Entertainment' />
-                    <Item img='/images/hospitality.jpg' text='Lifestyle&Hospitality' />
+                    <Item img='/images/22.jpg' text='Civil Infrastructure development' />
+                    <Item img='/images/23.webp' text='Media and Entertainment' />
+                    <Item img='/images/25.webp' text='Lifestyle&Hospitality' />
                 </div>
 
             </div>

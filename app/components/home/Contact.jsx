@@ -5,33 +5,33 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function Contact() {
     return (
-        <div className="my-10">
+        <div className="py-10 white-bg">
             <div className="container mx-auto md:flex p-5 ">
                 <div className="flex-1">
                     <h3 className="text-4xl font-semibold text-blue-500 ">Contact Us Today</h3>
                     <p className="text-slate-500">Need to get intouch with us? Either fill out the form with your enquiry or find the email you'll like to contact below.</p>
 
-                    <div className="shadow-blue-300/50  shadow-xl p-5 md:w-1/2 my-5 flex items-center gap-5">
+                    <div className="shadow-blue-300/50  shadow-xl p-5 w-fit my-5 flex items-center gap-5">
                         <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
                             <MdOutlineEmail size={30} />
                         </div>
                         <p>testemail@gmail.com</p>
                     </div>
 
-                    <div className="shadow-blue-300/50  shadow-xl p-5 md:w-1/2 my-5 flex items-center gap-5">
+                    <div className="shadow-blue-300/50  shadow-xl p-5 w-fit my-5 flex items-center gap-5">
                         <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
                             <IoCall size={30} />
                         </div>
                         <p>000 000 000 000</p>
                     </div>
-                    <div className="shadow-blue-300/50  shadow-xl p-5 md:w-1/2 my-5 flex items-center gap-5">
+                    <div className="shadow-blue-300/50  shadow-xl p-5 w-fit my-5 flex items-center gap-5">
                         <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
                             <FaLocationDot size={30} />
                         </div>
                         <p>testemail@gmail.com</p>
                     </div>
                 </div>
-                <div className="flex-1 bg-gray-50 p-5 rounded-lg" data-aos="fade-left" data-aos-duration="3000">
+                <div className="flex-1 bg-gray-50 p-5 rounded-lg shadow-xl" data-aos="fade-left" data-aos-duration="3000">
                     <form>
                         <div className="md:grid grid-cols-2 gap-3">
                             <div className="my-3">
