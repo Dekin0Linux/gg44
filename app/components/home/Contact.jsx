@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function Contact() {
     return (
-        <div className="py-10 white-bg">
+        <div className="py-10 white-bg overflow-hidden">
             <div className="container mx-auto md:flex p-5 ">
                 <div className="flex-1">
                     <h3 className="text-4xl font-semibold text-blue-500 ">Contact Us Today</h3>
@@ -31,7 +31,7 @@ function Contact() {
                         <p>testemail@gmail.com</p>
                     </div>
                 </div>
-                <div className="flex-1 bg-gray-50 p-5 rounded-lg shadow-xl" data-aos="fade-left" data-aos-duration="3000">
+                <div className="flex-1 bg-gray-50 p-5 rounded-lg shadow-xl" data-aos="fade-up" data-aos-duration="3000">
                     <form>
                         <div className="md:grid grid-cols-2 gap-3">
                             <div className="my-3">
