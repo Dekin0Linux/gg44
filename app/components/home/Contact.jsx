@@ -15,7 +15,7 @@ function Contact() {
                         <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
                             <MdOutlineEmail size={30} />
                         </div>
-                        <p>testemail@gmail.com</p>
+                        <p>support@gg44holdings.com</p>
                     </div>
 
                     <div className="shadow-blue-300/50  shadow-xl p-5 w-fit my-5 flex items-center gap-5">
@@ -28,7 +28,7 @@ function Contact() {
                         <div className="w-10 h-10 bg-gray-100 flex justify-center items-center shadow-md">
                             <FaLocationDot size={30} />
                         </div>
-                        <p>testemail@gmail.com</p>
+                        <p>Accra -Ghana ( East Legon )</p>
                     </div>
                 </div>
                 <div className="flex-1 bg-gray-50 p-5 rounded-lg shadow-xl" data-aos="fade-up" data-aos-duration="3000">
